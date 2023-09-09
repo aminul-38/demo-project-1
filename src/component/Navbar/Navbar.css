@@ -1,0 +1,18 @@
+nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(138, 130, 130, 0.568);
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #4267b2;
+}

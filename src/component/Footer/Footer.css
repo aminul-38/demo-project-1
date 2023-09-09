@@ -1,0 +1,17 @@
+footer {
+    background-color: rgba(124, 113, 113, 0.295);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-right: 250px;
+    padding-left: 250px;
+    color: rgb(0, 0, 0);
+}
+
+p.copy {
+    font-size: 15px;
+}
+
+p.dev {
+    font-size: 12px;
+}

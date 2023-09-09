@@ -1,0 +1,71 @@
+main {
+    height: 400px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 704px 300px;
+    grid-gap: 20px;
+}
+
+main div.main {
+    background-color: rgba(224, 224, 224, 0.575);
+    grid-row: 1/-1;
+}
+
+aside.notice {
+    background-color: rgba(255, 255, 255, 0.363);
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+aside.maps {
+    background-color: lightgreen;
+}
+
+div.text {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: auto;
+    padding-bottom: auto;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+h1.main {
+    font-size: 30px;
+    color: rgb(82, 43, 15);
+}
+
+h1.notice {
+    background-color: rgba(53, 50, 50, 0.623);
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    font-size: 15px;
+}
+
+p.notice {
+    height: 83px;
+    background-color: rgba(53, 50, 50, 0.329);
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+p.see {
+    background-color: rgba(53, 50, 50, 0.623);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    margin: 0px;
+}
+
+aside a {
+    text-decoration: none;
+    color: white;
+}
+
+a.notice {
+    padding-left: 10px;
+}
